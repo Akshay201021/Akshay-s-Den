@@ -148,8 +148,8 @@ tr:nth-child(odd){
     background-color:red;
 }
 #image1{
- width : 1000px;
- height : 600px;
+ width : 500px;
+ height : 300px;
 }
 .btn{
     width:220px;
