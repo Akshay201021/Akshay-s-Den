@@ -1,7 +1,15 @@
 body{
-background-color:firebrick;
-    text-align:center;
+animation-name:bg_color;
+animation-iteration-count:infinite;
+animation-duration:8s;
     
+}
+@keyframes bg_color{
+    0%{background-color:red;}
+    25%{background-color:orange;}
+    50%{background-color:yellow;}
+    75%{background-color:orange;}
+    100%{background-color:red;}
 }
 #heading{
     text-align:center;
@@ -149,7 +157,7 @@ tr:nth-child(odd){
 }
 #image1{
  width : 500px;
- height : 300px;
+ height : 350px;
 }
 .btn{
     width:220px;
